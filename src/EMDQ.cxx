@@ -528,7 +528,6 @@ void GenerateNeighborMatrixFromVector(const MatrixXd& p, const MatrixXi& neighbo
 			}
 		}
 	}
-
 }
 
 void GenerateWeightMatrixUsingSort(const MatrixXd& X, MatrixXd& K, MatrixXi& neighborIds, const int M, const double beta_in)
